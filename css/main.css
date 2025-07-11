@@ -97,7 +97,7 @@ a{
   background-color: #ddd;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:focus .dropdown-content {
   display: block;
 }
 .text-content{
@@ -151,7 +151,7 @@ font-size:20px;
 }
 @media(max-width:456px){
    .images{
-    display: flex;
+    display: grid;
     flex-direction: column;
     flex-wrap: wrap;
   align-items: center;
