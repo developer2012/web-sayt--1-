@@ -97,7 +97,7 @@ a{
   background-color: #ddd;
 }
 
-.dropdown:focus .dropdown-content {
+.dropdown:hover .dropdown-content {
   display: block;
 }
 .text-content{
